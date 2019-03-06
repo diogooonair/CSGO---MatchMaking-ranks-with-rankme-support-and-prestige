@@ -1,0 +1,31 @@
+"Phrases"
+{
+	"PrestigeNotGlobal"
+	{
+		"en"		"You Are Not Global Elite"
+		"pt"		"Não és Global Elite"
+	}
+	"PrestigeLevelUpAndPrizeCredits"
+	{
+	    "#format"	"{1:s}"
+		"en"		"You level up your prestige and won {1} credits"
+		"pt"		"O teu prestigio subiu de nivel e tu ganhaste {1} creditos"
+	}
+	"PrestigeLevelUpAndPrizeVip"
+	{
+		"en"		"You level up your prestige and won VIP for 1 day"
+		"pt"		"O teu prestigio subiu de nivel e tu ganhaste VIP por 1 dia"
+	}
+	"PrestigeLevel"
+	{
+	    "#format"	"{1:s}"
+		"en"		"Your prestige level is {1}/5"
+		"pt"		"O teu nivel de prestigio e {1}/5"
+	}
+	"PrestigeRankUp"
+	{
+	    "#format"	"{1:s}"
+		"en"		"You Ranked UP to {1}"
+		"pt"		"Suiste De Rank Para {1}"
+	}
+}
