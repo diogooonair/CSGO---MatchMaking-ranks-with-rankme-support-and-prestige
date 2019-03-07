@@ -5,13 +5,13 @@
 #include <clientprefs>
 #include <kento_rankme/rankme>
 #include <store>
-#include <csgocolors>
+#include <multicolors>
 
 #pragma tabsize 0
 #pragma newdecls required
 
 #define PLUGIN_AUTHOR "DiogoOnAir"
-#define PLUGIN_VERSION "1.0"
+#define PLUGIN_VERSION "1.1"
 
 Handle cookie_mm_type = INVALID_HANDLE;
 
@@ -844,6 +844,12 @@ public void Query_ErrorCheckCallBack(Database db, Handle hndl, const char[] erro
     } 
 } 
 
+public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
+{
+	MarkNativeAsOptional("Store_GetClientCredits");
+	MarkNativeAsOptional("Store_SetClientCredits");
+}
+
 // Some Actions
 
 public Action GivePrize(int client)
@@ -981,5 +987,3 @@ stock bool IsValidClient(int client)
 	
 	return false;
 }
-
-
