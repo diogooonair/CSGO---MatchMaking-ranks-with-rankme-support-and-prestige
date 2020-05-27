@@ -1,0 +1,11 @@
+"PrestigeModels"
+{
+	"AnyName"
+	{
+		"Name"		"SkinName"
+		"Model"		"ModelPath"
+		"Arms"		"ArmsPath"
+		"Prestige"		"PrestigeLevel"
+		"Id"		"SkinUniqueID"
+	}
+}

@@ -1,0 +1,5 @@
+"Commands"
+{
+	"sm_nominate"					"2"
+	"sm_shop"				"3"
+}
